@@ -13,8 +13,11 @@ exports.getResume = function(req, res, next){
 	var filename = "Terrazas_Job_Resume.pdf";
 	var dirname = "/pdfs/";
 	file = dirname + filename;
+	console.log("__dirname");
+
+	console.log(__dirname);
 	var options = {
-		root: '/myWebSite/public/pdfs/',
+		root: __dirname + '/../public/pdfs/',
 		dotfiles: 'deny',
 		headers: {
 			'x-timestamp': Date.now(),
