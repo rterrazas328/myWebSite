@@ -14,7 +14,7 @@ exports.getResume = function(req, res, next){
 	var dirname = "/pdfs/";
 	file = dirname + filename;
 	var options = {
-		root: '/Users/Ricardo/Documents/Ricardo/myWebSite/public/pdfs/',
+		root: '/myWebSite/public/pdfs/',
 		dotfiles: 'deny',
 		headers: {
 			'x-timestamp': Date.now(),
