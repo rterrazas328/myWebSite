@@ -1,0 +1,5 @@
+services:
+  app:
+    build: .
+    ports:
+    - "51751:51751"
