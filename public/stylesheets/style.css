@@ -21,3 +21,37 @@ a {
     padding: 2rem;
     border-radius: 8px;
 }
+
+.grid-item:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+.content-section-b {
+
+  height: 90%;
+
+}
+/* 1. Define the appearance animation */
+@keyframes fade-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(50px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.reveal-box {
+  /* 2. Link the animation to the scroll progress */
+  animation: fade-reveal linear;
+  animation-timeline: view();
+  
+  /* 3. Fine-tune when it starts and ends */
+  /* entry 0%: start as soon as it touches the bottom of the screen */
+  /* cover 40%: complete the animation when it's 40% up the viewport */
+  animation-range: entry 0% cover 30%;
+
+}

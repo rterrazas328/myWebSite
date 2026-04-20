@@ -21,11 +21,15 @@ block content
 								a.btn.btn-default.btn-lg(href='https://www.linkedin.com/in/ricardo-terrazas-a35020113?trk=nav_responsive_tab_profile_pic')
 									i.fa.fa-linkedin.fa-fw
 									span.network-name Linkedin
+							li
+								a.btn.btn-default.btn-lg(href='mailto:rterrazas328@gmail.com')
+									i.fa.fa-envelope.fa-fw
+									span.network-name Email
 		// /.container
 	// /.intro-header
 	// Page Content
 	a(name='about')
-	section.content-section
+	section.content-section.reveal-box
 		.container
 			.row
 				.col-lg-5.col-sm-6
@@ -34,31 +38,47 @@ block content
 					h2.section-heading
 						| Welcome
 					p.lead
-						| My name is Ricardo Terrazas and this is where I
-						| showcase all of my cool projects as well as any cool coding tricks I learn about
+						| My name is Ricardo Terrazas and this is my own personal website I
+						| I created and maintain myself. I use this as an opportunity to showcase
+						| all of my various software projects as well as any other skills I have picked up.
+						| I also take this chance to tell a bit more about myself
 						br
 						br
 						| To begin viewing my work, you can click the link at the top or just click the link here &nbsp
 						a.btn.btn-default.btn-lg(href='./projects')
 							span.network-name View Projects
 					h2.section-heading
-						| Some more info about me
+						| Some more info about m
+						e
 					label
-						| Name: Ricardo Terrazas
-						br
-						| School: New Jersey Institute of Technology
-						br
-						| Major: Computer Science
-						br
-						| Email: rt73@njit.edu
-						br
-						| Phone Number: (973) 997-1361
-						br
-						| Relevant Experience:
+						h4
+							| Name: Ricardo Terrazas
+						h4
+							| School: New Jersey Institute of Technology
+						h4
+							| Major: Computer Science
+						h4
+							| Email: rterrazas328@gmail.com
+						h4
+							| Phone Number: (973) 997-1361
+						h4
+							| Relevant Experience:
 						ul
-							li Internship at UPS (3 month)
-							li Co-op at UPS (7 months)
-							li CIO at Sitelegion (current)
+							li
+								h4
+									| Internship at UPS (3 month)
+							li
+								h4
+									| Co-op at UPS (7 months)
+							li
+								h4
+									| SAP Basis Intern (3 months)
+							li
+								h4
+									| SAP Basis Administrator (5 Years)
+							li
+								h4
+									| Senior SAP Basis Administrator (4 Years)
 
 
 				.col-lg-5.col-lg-offset-2.col-sm-6
@@ -68,53 +88,111 @@ block content
 	section.content-section
 		.container
 			.row
-				.col-lg-5.col-sm-6.col-lg-offset-7.col-sm-offset-7
-					hr.section-heading-spacer
-					.clearfix
+				hr.section-heading-spacer
+				.clearfix
+				.col-lg-8.col-sm-8.col-lg-offset-0.col-sm-offset-0.reveal-box
+					
+					h2.section-heading
+						| My Personal Mission Statement
+					br
+					p.lead
+						| My overall goal is to find and create optimal solutions to make strong positive impacts. I have had experience with building website applications from the ground up
+						| as well as experience in handling and maintaining existing systems. My biggest value is to always provide utmost quality in anything I deliver, whether it is a software project, a technical analysis, 
+						| or any other deliverable, I strive for quality, stability, and collaboration. My previous experience in maintaining, upgrading, and installing SAP systems has allowed me to gain valuable experience in overseeing many parts of the IT landscape 
+						| and watching it all work together. You need someone who can see the big picture while having the skills to move forward against any obstacle to keep your business running smoothly, on time, and on target.
+						| I can bring both the strategic perspective and technical expertise needed to deliver on these objectives effectively.
+					br
+				.col-lg-8.col-sm-8.col-lg-offset-4.col-sm-offset-7.reveal-box
 					h2.section-heading
 						| My Accomplishments
 					br
 					p.lead
-						| Projects created are written in a variety of langages. They range from simple scripts to check
-						| whether a string is a palindrome to more complex applications such as a prototype music-based
-						| social media site.
-					br
-					.grid-container
-						.grid-item
-							h3 Programming Languages
-							ul
-								li C
-								li C++
-								li Java
-								li PHP
-								li Node.js
-								li C#
-								li Python
-								li BASH
-								li JavaScript
-								li HTML
-								li CSS
-								li MySQL
-						.grid-item
-							h3 Frameworks
-							ul
-								li Swing (Java)
-								li JDBC (Java)
-								li Laravel (PHP)
-								li Express (Backend JavaScript)
-								li Jquery (Frontend JavaScript)
-								li CSS (CSS)
+						| Over the course of my work, I’ve driven several high-impact initiatives that strengthened both system performance and security across complex enterprise environments.
+						| I successfully configured Solution Manager while managing a landscape of more than 15 systems, improving monitoring and operational oversight. I streamlined infrastructure maintenance by automating WSUS patching across 75+ servers, significantly reducing manual effort and risk exposure.
+						| As part of a broader security overhaul, I implemented encryption at rest for over 30 MSSQL and HANA systems and introduced Kerberos SSO for ECC environments, enhancing both data protection and user experience.
+						| In parallel, I led a major Oracle upgrade from 12c to 19c and directed the planning and execution of upgrades across a wide SAP ecosystem, including ECC, S/4HANA, GRC, PI/PO, HANA, and Solution Manager, ensuring minimal disruption and strong alignment with business objectives.
 
-						.grid-item
-							Other Skills
-							ul
-								li Project Management Using Trello
-								li Agile & Scrum
-								li Kanban-Scrum
-								li Unit Testing
-								li Debugging
-								li Version Control
-								li Heroku Hosting
+					br
+				.col-lg-5.col-sm-6.col-lg-offset-0.col-sm-offset-0.reveal-box
+					h2.section-heading
+						| Past Projects
+					br
+					p.lead
+						| Throughout my career in SAP, I have led projects involving the upgrade, implementation, and troubleshooting of business-critical applications supported by SAP, databases, and various third-party technologies.
+						| I have also been responsible for provisioning and managing infrastructure in both VMware and Google Cloud Platform environments, ensuring systems are scalable and aligned with operational needs.
+						| In addition, I have designed and executed disaster recovery strategies, including failover testing, with thorough documentation to support business continuity.
+						| A key area of my work has focused on security and compliance, where I contributed to a major overhaul by developing enhanced monitoring controls and implementing encryption at rest across more than 30 servers.
+						| Earlier in my career, I also developed a range of technical projects using multiple programming languages, from lightweight automation scripts for data processing to more advanced applications, including a prototype music-based social media platform with user authentication features.
+						| Several of these projects can be viewed from the projects page in more detail!
+					br
+			br
+			br
+			br
+			br
+			br
+			br
+			.row.reveal-box
+				.grid-container
+					.grid-item
+						h3 Programming and Markup Languages
+						ul
+							li C
+							li C++
+							li C#
+							li Java
+							li PHP
+							li Python
+							li BASH
+							li Powershell
+							li JavaScript
+							li HTML
+							li CSS
+							li Yaml
+							li XML
+							li JSON
+					.grid-item
+						h3 Frameworks
+						ul
+							li Swing (Java)
+							li JDBC (Java)
+							li Laravel (PHP)
+							li Express (Backend JavaScript)
+							li Jquery (Frontend JavaScript)
+							li CSS (CSS)
+							li Blazor (C#)
+							li Breeze (PHP Authentication)
+					.grid-item
+						h3 Environments and databases
+						ul
+							li ASP.NET Core (C#)
+							li NodeJS
+							li Microsoft SQL Server
+							li MySQL
+							li MongoDB (NoSQL document database)
+							li Postgress
+							li Oracle Database
+							li S4 Hana
+
+					.grid-item
+						h3 Infrascture and Devops
+						ul
+							li Github version control and best practices
+							li Docker image administration
+							li Experience with Vmware virtual machine deployment and resource administration
+							li Experience with Google Cloud Platform virtual machine deployment and resource administration
+							li Experience with deploying and configuring Windows Server and Linux virtual machines
+
+					.grid-item
+						h3 Project Management Skills
+						ul
+							li Requirements Procurement from clients
+							li Communicating with clients and being attentive to clients needs
+							li Project Management Using Trello
+							li Agile & Scrum
+							li Kanban-Scrum and project management metrics
+							li Unit Testing
+							li Debugging
+								
 		// /.container
 	// /.content-section-b
 	a(name='contact')
@@ -133,5 +211,9 @@ block content
 							a.btn.btn-default.btn-lg(href='https://www.linkedin.com/in/ricardo-terrazas-a35020113?trk=nav_responsive_tab_profile_pic')
 								i.fa.fa-linkedin.fa-fw
 								span.network-name Linkedin
+						li
+							a.btn.btn-default.btn-lg(href='mailto:rterrazas328@gmail.com')
+								i.fa.fa-envelope.fa-fw
+								span.network-name Email
 		// /.container
 	// /.banner
